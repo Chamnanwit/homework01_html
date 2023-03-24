@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"rel="stylesheet"/> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>HomePage</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    nav li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .MyProfile {
+        width: 200px;
+        border-radius: 50%;
+    }
+
+    .title-box {
+        background-image: url("./pic/pic_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: #FFF;
+        background-blend-mode: lighten;
+        background-color: #222;
+        padding: 1rem;
+    }
+
+    .bottom-box {
+        background-color: #222;
+        color: #FFF;
+        background-blend-mode: lighten;
+        padding: 1rem;
+    }
+
+    .bottom-box li {
+        margin-inline: 2rem;
+    }
+
+</style>
+<body>
+    <nav>
+        <ul>
+            <li><a href="./contact.html">Contaact</a></li>
+            <li><a href="./work.html">Work</a></li>
+            <li><a href="./Education.html">Education</a></li>
+            <li><a href="#">Home</a></li></li>
+        </ul>
+    </nav>
+    <main>
+        <div>
+            <div class="title-box">
+                <!-- <span class="material-icons-outlined">assignment_ind</span> -->
+                <h1>Mr.Chamnanwit Eamdit</h1>
+                <h3>Full-Stack Developer</h3>
+                <img src="./pic/pic_index.jpg" alt="My profile" class="MyProfile">
+                <p>Energeticweb developer with certificated from Codecamp Thailand(#14). Codecamp is one of the best developer's bootcamp in Thailand.</p>
+            </div>
+        </div>
+        <hr>
+        <div class="bottom-box">
+            <div>
+                <h2>Personal info</h2>
+                <p><strong>Location </strong> <i class="fa-solid fa-location-dot"></i> : Nonthaburi, Thailand</p>
+                <p><strong>Phone </strong> <i class="fa-solid fa-phone"></i> : (+66)92-2577575</p>
+                <p><strong>E-mail </strong> <i class="fa-regular fa-envelope"></i> : Chamnanwiteamdit@gmail.com</p>
+                <p><strong>Line ID </strong> <i class="fa-brands fa-line"></i> : Job-demonhell</p>
+            </div>
+            <hr>
+            <div>
+                <h2>Skills</h2>
+                <ul>
+                    <li>UX/UI Design (Figma) <i class="fa-solid fa-pen-nib"></i></li>
+                    <li>HTML <i class="fa-brands fa-html5"></i></li>
+                    <li>CSS <i class="fa-brands fa-css3-alt"></i></li>
+                    <li>JavaScript <i class="fa-brands fa-square-js"></i></li>
+                    <li>Git <i class="fa-brands fa-github"></i></li>
+                    <li>React.js <i class="fa-brands fa-react"></i></li>
+                    <li>Node.JS <i class="fa-brands fa-node-js"></i></li>
+                    <li>MySQL <i class="fa-solid fa-network-wired"></i></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

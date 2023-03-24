@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <l<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Contact</title>
+    <style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        background-color: #222;
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        font-family: 'Chakra Petch', sans-serif;
+    }
+
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+
+    nav li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: #111;
+    }
+
+    .box {
+        width: 500px;
+        padding: 30px;
+        border: solid 1px rgb(177, 196, 215);
+        border-radius: 5px;
+    }
+
+    form > input {
+        margin: 0px 0px 10px 0px;
+    }
+
+    select {
+        margin: 0px 0px 10px 0px;
+    }
+
+    textarea {
+        margin: 0px 0px 10px 0px;
+    }
+
+    main {
+        background-image: url("./pic/pic_bg.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        color: #FFF;
+        background-blend-mode: lighten;
+        background-color: #222;
+        padding: 1rem;
+    }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Contaact</a></li>
+            <li><a href="./work.html">Work</a></li>
+            <li><a href="./education.html">Education</a></li>
+            <li><a href="./index.html">Home</a></li></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Me <i class="fa-regular fa-address-card"></i></h1>
+        <div class="box">
+            <form action="#">
+                <p>Enter your info.</p>
+                <label for="Name">Your Name</label>
+                <br>
+                <input type="text" name="Name" style="width: 400px;"><br>
+                <label for="Mail">Your E-mail</label>
+                <br>
+                <input type="text" name="Mail" style="width: 400px;"><br>
+                <label for="Gender">Gender</label>
+                <br>
+                <select name="Gender" style="width: 400px;">
+                    <option value="" disabled selected hidden>select..</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Other">Other</option>
+                  </select><br>
+                  <label for="Msg">Message</label><br>
+                    <textarea name="Msg" rows="7" cols="52"></textarea>
+                    <br>
+                  <input type="submit" name="Send" value="Send">
+                  <input type="reset" name="Clear" value="Clear">
+            </form>
+        </div>
+    </main>
+</body>
+</html>
